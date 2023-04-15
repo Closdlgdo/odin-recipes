@@ -5,12 +5,25 @@ body {
     padding: 0;
 }
 
+.nav-list {
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+
+    padding: 10px;
+    list-style: none;
+    margin: 20px;
+}
+
+.nav-list li {
+}
+
 h1 {
     color: #103b4c;
     font-weight: bold;
     font-size: 4em;
     text-align: center;
-    margin: 0;
+    margin: 20px;
     padding: 20px;
 }
 
@@ -33,14 +46,12 @@ img {
     margin-right: auto;
 }
 
-ul {
-    margin: 5px;
-    padding: 5px;
+.cont ul {
     overflow: auto;
     text-align: left;
 }
 
-li {
+.cont li {
     color: #103b4c;
     font-size: 1.2em;
     margin: 10px;
