@@ -1,5 +1,15 @@
 body {
-    background-color: #f7e4c7;
+    background-color: #ffdc9b;
+    background-image: 
+    conic-gradient(
+        from 330deg at 50% 70%, 
+        #f2b23c 60deg, 
+        transparent 60deg),
+    conic-gradient(
+        from 150deg at 50% 30%, 
+        #f7c569 30deg, 
+        transparent 60deg);
+    background-size: 3rem 2rem;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
@@ -9,8 +19,7 @@ body {
     display: flex;
     justify-content: end;
     gap: 1rem;
-
-    padding: 10px;
+    padding: 20px;
     list-style: none;
     margin: 10px;
 }
